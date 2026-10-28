@@ -1,0 +1,33 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- Builds y paquetes generados ---
+app/release/
+*.apk
+*.aab
+
+# --- Claves de firma (nunca al repositorio) ---
+*.jks
+*.keystore
+
+# --- Configuración local de Android Studio ---
+.idea/
+
+# --- Ficheros auxiliares ---
+estructura_proyecto.txt
+
+# --- Historial git anterior (copia local, no se sube) ---
+.git_antiguo/
